@@ -1,6 +1,12 @@
+"use client";
+
+import { SignInButton, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Button } from "./ui/button";
+import { Authenticated, Unauthenticated } from "convex/react";
+import { BarLoader } from "react-spinners";
 
 const Header = () => {
   return (
@@ -22,8 +28,22 @@ const Header = () => {
           {/* search adn loaction desktop only  */}
 
           {/* right side actions */}
+          <div className="flex items-center">
+            <Authenticated>
+              {/* create event */}
+              <UserButton />
+            </Authenticated>
+            <Unauthenticated>
+              <SignInButton mode="modal">
+                <Button size="sm">Sign In</Button>
+              </SignInButton>
+            </Unauthenticated>
+          </div>
         </div>
         {/* mobile search and loaction */}
+        <div className="absolute bottom-0 left-0 w-full">
+          <BarLoader width={"100%"} color="#a855f7" />
+        </div>
       </nav>
       {/* modals */}
     </>

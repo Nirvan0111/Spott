@@ -1,0 +1,307 @@
+[00:00:05.472] Server  LOG      ✓ Ready in 5s
+[00:00:09.203] Server  LOG      ○ Compiling / ...
+[00:00:12.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:14.668] Server  LOG        Reload env: .env.local
+[00:26:14.709] Server  LOG        Reload env: .env.local
+[00:26:15.435] Server  LOG      ✓ Compiled in 620ms
+[00:26:15.444] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:26:15.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:34.233] Server  LOG      ✓ Compiled in 268ms
+[00:32:42.655] Server  ERROR    ⨯ ReferenceError: ConvexClientProvider is not defined
+[00:32:43.503] Browser ERROR   uncaughtError: ReferenceError: ConvexClientProvider is not defined
+[00:32:59.517] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:59.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:59.748] Server  LOG      ✓ Compiled in 6ms
+[01:28:11.862] Server  LOG        Reload env: .env.local
+[01:28:12.734] Server  LOG      ✓ Compiled in 680ms
+[01:28:12.741] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:28:13.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:50.053] Server  LOG      ✓ Compiled in 6ms
+[01:28:50.539] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.762] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.798] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.818] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.838] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.858] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.874] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:51.874] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:51.874] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:51.874] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:51.884] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.926] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.929] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.932] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.964] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.970] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.992] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:51.994] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.008] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.029] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.031] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.043] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.045] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.067] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.071] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.133] Browser ERROR   uncaughtError: Error: ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+
+[01:28:52.142] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.145] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.147] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.150] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.169] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.171] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.174] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.192] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[01:28:52.388] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:53.389] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:28:53.389] Browser ERROR   ./proxy.js
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[01:29:02.181] Server  LOG      ✓ Compiled in 296ms
+[01:31:03.657] Server  LOG      ✓ Compiled in 62ms
+[01:31:12.709] Server  ERROR    ⨯ ReferenceError: ClerkProvider is not defined
+[01:31:13.042] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:13.389] Browser ERROR   uncaughtError: ReferenceError: ClerkProvider is not defined
+[01:31:33.559] Server  LOG      ✓ Compiled in 985ms
+[01:31:33.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:35.388] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:31:47.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:47.824] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:35:17.824] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
+[01:35:23.800] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:23.954] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[01:35:25.308] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
+[01:35:29.449] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:29.712] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[03:13:09.344] Server  LOG      ✓ Compiled in 41ms
+[03:13:09.564] Server  ERROR    ⨯ ReferenceError: dark is not defined
+[03:13:09.602] Server  ERROR    ⨯ ReferenceError: dark is not defined
+[03:13:10.400] Browser ERROR   uncaughtError: ReferenceError: dark is not defined
+[03:13:26.074] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:28.193] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[03:13:33.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:33.727] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[03:13:38.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:38.718] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[21:52:28.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:52:35.932] Browser ERROR   unhandledRejection: ClerkRuntimeError: Clerk: Failed to load Clerk, failed to load script: https://holy-duck-76.clerk.accounts.dev/npm/@clerk/clerk-js@5/dist/clerk.browser.js
+
+(code="failed_to_load_clerk_js")
+
+
+[21:52:44.432] Browser ERROR   ClerkRuntimeError: Clerk: Failed to load Clerk
+
+(code="failed_to_load_clerk_js_timeout")
+
+
+    at handleTimeout (http://localhost:3000/_next/static/chunks/node_modules_%40clerk_shared_dist_runtime_5e69d9e7._.js:5322:50)
+[21:52:59.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:53:07.483] Browser ERROR   unhandledRejection: ClerkRuntimeError: Clerk: Failed to load Clerk, failed to load script: https://holy-duck-76.clerk.accounts.dev/npm/@clerk/clerk-js@5/dist/clerk.browser.js
+
+(code="failed_to_load_clerk_js")
+
+
+[21:53:16.483] Browser ERROR   ClerkRuntimeError: Clerk: Failed to load Clerk
+
+(code="failed_to_load_clerk_js_timeout")
+
+
+    at handleTimeout (http://localhost:3000/_next/static/chunks/node_modules_%40clerk_shared_dist_runtime_5e69d9e7._.js:5322:50)
+[21:55:13.092] Server  LOG        Reload env: .env.local
+[21:55:14.070] Server  LOG      ✓ Compiled in 806ms
+[21:55:14.083] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[21:55:15.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:55:24.483] Browser ERROR   unhandledRejection: ClerkRuntimeError: Clerk: Failed to load Clerk, failed to load script: https://holy-duck-76.clerk.accounts.dev/npm/@clerk/clerk-js@5/dist/clerk.browser.js
+
+(code="failed_to_load_clerk_js")
+
+
+[21:55:31.484] Browser ERROR   ClerkRuntimeError: Clerk: Failed to load Clerk
+
+(code="failed_to_load_clerk_js_timeout")
+
+
+    at handleTimeout (http://localhost:3000/_next/static/chunks/node_modules_%40clerk_shared_dist_runtime_5e69d9e7._.js:5322:50)
+[21:55:42.019] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[21:55:42.029] Server  LOG      ✓ Compiled in 84ms
+[21:55:42.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:55:44.483] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:01:28.020] Server  LOG      ✓ Compiled in 192ms
+[22:01:28.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:01:28.985] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:01:30.483] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:01:49.958] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:01:50.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:01:52.482] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:03:58.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:03:58.345] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:08:02.428] Server  LOG      ✓ Compiled in 371ms
+[22:08:03.363] Server  ERROR    ⨯ Error: The default export is not a React Component in "/sign-in/[[...sign-in]]/layout"
+[22:08:03.743] Server  ERROR    ⨯ Error: The default export is not a React Component in "/sign-in/[[...sign-in]]/layout"
+[22:08:04.354] Server  ERROR    ⨯ Error: The default export is not a React Component in "/sign-in/[[...sign-in]]/layout"
+[22:08:04.670] Server  ERROR    ⨯ Error: The default export is not a React Component in "/sign-in/[[...sign-in]]/layout"
+[22:08:04.850] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/sign-in/[[...sign-in]]/layout"
+[22:08:10.786] Server  LOG      ✓ Compiled in 31ms
+[22:08:34.026] Server  LOG      ✓ Compiled in 26ms
+[22:09:03.989] Server  LOG      ✓ Compiled in 25ms
+[22:09:53.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:09:53.771] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:12:58.835] Server  LOG      ✓ Compiled in 76ms
+[22:13:56.594] Server  LOG      ✓ Compiled in 28ms
+[22:16:05.320] Server  LOG      ✓ Compiled in 28ms
+[22:16:31.721] Server  LOG      ✓ Compiled in 33ms
+[22:17:04.787] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:17:05.247] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:17:09.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:17:09.284] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:17:33.897] Server  LOG      ✓ Compiled in 27ms
+[22:17:40.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:17:40.629] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:24:49.202] Server  LOG        Reload env: .env.local
+[22:24:49.328] Server  LOG      ✓ Compiled in 64ms
+[22:24:49.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:24:49.937] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:24:52.484] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:24:58.383] Server  LOG      ✓ Compiled in 37ms
+[22:24:58.389] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:24:58.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:25:00.484] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:32:23.870] Server  LOG      ✓ Compiled in 230ms
+[22:32:24.484] Browser ERROR   uncaughtError: TypeError: useAuth is not a function
+[22:32:54.874] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:32:54.898] Server  LOG      ✓ Compiled in 138ms
+[22:32:55.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:32:57.482] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:33:22.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:33:22.483] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[22:33:27.538] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:33:27.666] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[23:27:00.575] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.default.createContext is not a function
+[23:27:00.873] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:00.945] Server  LOG      ✓ Compiled in 16ms
+[23:27:01.187] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:01.412] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:01.743] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:01.982] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:02.253] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:02.508] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:02.837] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:03.068] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:03.215] Browser ERROR   uncaughtError: TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:16.136] Server  LOG      ✓ Compiled in 30ms
+[23:27:23.562] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.default.createContext is not a function
+[23:27:23.906] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:24.035] Browser ERROR   uncaughtError: TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[23:27:44.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:27:45.029] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[23:45:47.684] Server  LOG      ✓ Compiled in 93ms
+[23:45:50.836] Server  LOG      ✓ Compiled in 33ms
+[23:52:09.555] Server  LOG      ✓ Compiled in 207ms
+[23:52:10.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:52:12.404] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[23:53:41.398] Server  LOG      ✓ Compiled in 36ms
+[23:54:05.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:54:05.498] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview

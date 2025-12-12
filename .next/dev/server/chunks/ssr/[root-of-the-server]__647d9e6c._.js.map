@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/Desktop/spott2/app/%28auth%29/sign-in/%5B%5B...sign-in%5D%5D/page.js"],"sourcesContent":["import { SignIn } from \"@clerk/nextjs\";\nimport React from \"react\";\n\nconst SignInPage = () => {\n  return <SignIn />;\n};\n\nexport default SignInPage;\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEA,MAAM,aAAa;IACjB,qBAAO,8OAAC,gMAAM;;;;;AAChB;uCAEe"}}]
+}

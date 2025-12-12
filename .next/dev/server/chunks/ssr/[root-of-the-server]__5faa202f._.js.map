@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/Desktop/spott2/components/theme-provider.jsx"],"sourcesContent":["\"use client\";\n\nimport * as React from \"react\";\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\n\nexport function ThemeProvider({ children, ...props }) {\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKO,SAAS,cAAc,EAAE,QAAQ,EAAE,GAAG,OAAO;IAClD,qBAAO,8OAAC,iKAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/Desktop/spott2/app/ConvexClientProvider.jsx"],"sourcesContent":["\"use client\";\n\nimport { ConvexProvider, ConvexReactClient } from \"convex/react\";\n\nconst convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL);\n\nexport function ConvexClientProvider({ children }) {\n  return <ConvexProvider client={convex}>{children}</ConvexProvider>;\n}\n"],"names":[],"mappings":";;;;;AAEA;AAAA;AAFA;;;AAIA,MAAM,SAAS,IAAI,6KAAiB;AAE7B,SAAS,qBAAqB,EAAE,QAAQ,EAAE;IAC/C,qBAAO,8OAAC,0KAAc;QAAC,QAAQ;kBAAS;;;;;;AAC1C"}}]
+}

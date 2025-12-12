@@ -1,6 +1,9 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import Header from "@/components/header";
+import { ConvexClientProvider } from "./ConvexClientProvider";
+import { ClerkProvider } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 
 export const metadata = {
   title: "Spott",
@@ -19,22 +22,26 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          {/* header */}
-          <Header />
-          <main className="relative min-h-screen container mx-auto pt-40 md:pt-32">
-            {/* gloww */}
-            <div className="pointer-events-none absolute inset-0 -z-10">
-              <div className="absolute top-0 left-1/4 w-96 h-96 bg-pink-600/20 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-600/20 rounded-full blur-3xl" />
-            </div>
-            <div className="relative z-10 min-h-[70vh]">{children}</div>
-            {/* footer */}
-            <footer className="border-t border-gray-800/50 py-8 px-6 max-w-7xl mx-auto">
-              <div className="text-sm text-gray-400">
-                Made with ♥️ by Nirvan Bobde
-              </div>
-            </footer>
-          </main>
+          <ClerkProvider appearance={{ theme: dark }}>
+            <ConvexClientProvider>
+              {/* header */}
+              <Header />
+              <main className="relative min-h-screen container mx-auto pt-40 md:pt-32">
+                {/* gloww */}
+                <div className="pointer-events-none absolute inset-0 -z-10">
+                  <div className="absolute top-0 left-1/4 w-96 h-96 bg-pink-600/20 rounded-full blur-3xl" />
+                  <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-600/20 rounded-full blur-3xl" />
+                </div>
+                <div className="relative z-10 min-h-[70vh]">{children}</div>
+                {/* footer */}
+                <footer className="border-t border-gray-800/50 py-8 px-6 max-w-7xl mx-auto">
+                  <div className="text-sm text-gray-400">
+                    Made with ♥️ by Nirvan Bobde
+                  </div>
+                </footer>
+              </main>
+            </ConvexClientProvider>
+          </ClerkProvider>
         </ThemeProvider>
       </body>
     </html>
